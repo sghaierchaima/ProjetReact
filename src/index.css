@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+input {
+  border-radius: 50px;
+}
+button {
+  border-radius: 50px;
+}
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container.dark {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
